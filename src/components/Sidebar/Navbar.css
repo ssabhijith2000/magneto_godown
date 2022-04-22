@@ -1,9 +1,9 @@
 .navbar {
   border-bottom: solid rgb(234, 235, 235);
-
+  margin-left: 260px;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
 .logo{
@@ -19,9 +19,14 @@
     text-align: right;
 
 }
-
-.menu-bars {
+.nav-icons{
   margin-left: 2rem;
+  display: inline;
+  
+
+}
+.menu-bars {
+  display: inline;
   font-size: 2rem;
   background: none;
   color: rgb(234, 235, 235);
@@ -33,21 +38,23 @@
   padding-left: 20px;
   padding-right: 20px;
   background-color: white;
-  width: 250px;
+  width: 200px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
-  left: -100%;
+
   transition: 850ms;
 }
-
-.nav-menu.active {
-  left: 0;
-  transition: 350ms;
+.navbar-right{
+margin-right: 20px;
 }
-
+.pagetitle{
+  display: inline;
+  margin-left: 20px;
+  font-size: x-large;
+}
 .nav-text {
   display: flex;
   justify-content: start;
@@ -71,7 +78,7 @@
 }
 
 .nav-text a:hover {
-  background-color: #1a83ff;
+  background-color: rgb(86,196,142);
 }
 
 .nav-menu-items {

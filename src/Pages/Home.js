@@ -1,9 +1,13 @@
-import React from 'react'
-import Header from '../components/Header/Header';
-function Home() {
+import React, { useEffect } from "react";
+import DashBoardComponent from "../components/DashBoard/DashBoard";
+import { useNavigate } from "react-router-dom";
+
+function DashBoard() {
   return (
-    <div><Header/>/</div>
+    <div>
+      <DashBoardComponent />
+    </div>
   );
 }
 
-export default Home;
+export default DashBoard;

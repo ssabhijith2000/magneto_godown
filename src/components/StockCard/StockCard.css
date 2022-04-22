@@ -1,0 +1,17 @@
+
+.products{
+    font-size: 12px;
+}
+
+.stockin{
+    font-size: 17px;
+}
+
+.number{
+    margin-top: 40px;
+    font-size: 25px;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
