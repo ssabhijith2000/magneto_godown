@@ -1,0 +1,29 @@
+
+table, th, td{
+   
+
+}
+
+.customtd{
+    border: none;
+    padding: 3px;
+    text-align: left;
+}
+.customtable{
+    border: none;
+    padding: 3px;
+    text-align: left;
+    width: 80%;
+    background-color: white;
+
+}
+
+.heading{
+    font-size: small;
+    color: rgb(121, 124, 126);
+    background-color: rgb(250,252,255)
+}
+.content{
+    font-size: medium;
+    color: black;
+}

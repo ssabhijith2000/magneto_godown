@@ -10,7 +10,7 @@ function StockOutTable(props) {
       .get("/api/stockoutlist")
       .then((response) => {
         const data = response.data;
-        setListData(data.stockouts);
+        setListData(data.stockouts.reverse());
         console.log(listdata);
       })
       .catch((e) => {

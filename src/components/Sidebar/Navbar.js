@@ -46,6 +46,12 @@ function Navbar(props) {
               <span>STOCK OUT</span>
             </Link>
           </li>
+          <li className="nav-text">
+            <Link to="/kits">
+              <AiIcons.AiOutlineShopping className={"icon"} />
+              <span>KITS</span>
+            </Link>
+          </li>
         </ul>
       </nav>
       <div className="navbar">
