@@ -8,11 +8,6 @@ function Login() {
   const emailref = useRef();
   const passwordref = useRef();
   const navigate = useNavigate();
-  useEffect(() => {
-    if (localStorage.token) {
-      navigate("/home", { replace: true });
-    }
-  }, []);
   const handleSignin = async () => {
     const name = emailref.current.value;
 

@@ -4,6 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 function StockIn() {
   const navigate = useNavigate();
+  useEffect(() => {
+    if (!localStorage.token) {
+      navigate("/", { replace: true });
+    }
+  }, []);
 
   return <StockInComponent />;
 }
